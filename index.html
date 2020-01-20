@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML/CSS/Javascript를 배워봅시다</title>
+    #article {
+        border-left: 1px solid gray;
+    }
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><style=font-size=40px>WEB</style></h1>
+    <div id=grid>
+  
+        <ol> 
+            <li><a href="1.html" target="_blank"><strong>HTML</strong></a></li>
+            <li><a href="2.html" target="_blank"><strong>CSS</strong></a></li>
+            <li><a href="3.html" target="_blank"><strong>Javascript</strong></a></li>
+        </ol>
+
+        <div id=article>
+            <input type="button" value="night" onclick="
+            var target = document.querySelector('body')
+            if(this.value === 'night'){
+                target.style.backgroundColor='black';
+                target.style.color='white';
+                this.value = 'day';
+            } else {
+                target.style.backgroundColor='white';
+                target.style.color='black';
+                this.value = 'night';
+            }
+        ">   
+        <p>
+            웹의 다른 뜻은 다음과 같다.<br>
+
+    웹(web)은 기본적으로 거미줄을 뜻한다.<br>
+    월드 와이드 웹(World Wide Web)의 약자<br>
+    월드와이드웹: 세계 최초의 웹 브라우저<br>
+    웹 2.0, 웹 3.0<br>
+    웹사이트(website)<br>
+    웹(WEB)은 도널드 커누스가 제안한 프로그래밍 시스템이다.<br>
+    웹(Web)은 그놈 데스크톱의 웹 브라우저이다.<br>
+    월간 웹은 1998년 창간된 월간지이다.<br>
+        </p>
+        <p>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/G6lvC2UncdE?list=TLPQMTYwMTIwMjANYD76vvalaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </p>
+            <input type="button" value="night" onclick="
+            var target = document.querySelector('body')
+            if(this.value === 'night'){
+                target.style.backgroundColor='black';
+                target.style.color='white';
+                this.value = 'day';
+            } else {
+                target.style.backgroundColor='white';
+                target.style.color='black';
+                this.value = 'night';
+            }
+        ">      
+        </div>
+    </div>
+</body>
+</html>
